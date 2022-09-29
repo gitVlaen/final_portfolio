@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sae Hong Web Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- jquery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- full page css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+
+    <!-- full page js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+    <script src="js/viewevent.js"></script>
+    <script src="js/mobile.js"></script>
+    <script src="js/fullpage.js"></script>
+
+</head>
+
+<body>
+
+    <aside>
+        <ul class="side_nav">
+            <li menuanchor="anchor1"><a href="#section1"><i class="fas fa-envelope-open-text"></i>Home</a></li>
+            <li menuanchor="anchor2"><a href="#section2"><i class="fas fa-book"></i>Project 01</a></li>
+            <li menuanchor="anchor3"><a href="#section3"><i class="fas fa-microphone"></i>Project 02</a></li>
+            <li menuanchor="anchor4"><a href="#section4"><i class="fas fa-leaf"></i>Project 03</a></li>
+            <li menuanchor="anchor5"><a href="#section5"><i class="fas fa-shopping-cart"></i>Project 04</a></li>
+            <li menuanchor="anchor6"><a href="#section6"><i class="fas fa-address-card"></i>About Me</a></li>
+        </ul>
+    </aside>
+
+    <div id="container">
+
+
+        <!-- Title Page -->
+        <div class="section" data-anchor="section1">
+            <div class='box'>
+                <div class='wave -one'></div>
+                <div class='wave -two'></div>
+                <div class='wave -three'></div>
+                <div class='title'>Web Developer</div>
+                <div class="sub_title">Front end / Responsible Web / Javascript / React / Jquery / Json / Ajax / Open api</div>
+            </div>
+        </div>
+
+
+        <!-- Project 1 -->
+
+        <div class="section" data-anchor="section2">
+            <div class="section_wrap">
+                <div class="explain">
+                    <h1>Project 01</h1>
+                    <h2>Interpark 도서</h2>
+                    <h3>Open API, Json</h3>
+                    <h4>Point Color</h4>
+                    <ul class="color1">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        도서사이트 '인터파크 도서'의 클론 웹페이지입니다.
+                        웹 페이지 내의 도서들은 Kakao open API를 통해 구현하였습니다.
+                        하얀색 배경을 바탕으로 상품이 가진 고유의 색이 더 돋보이고
+                        복잡함을 줄였으며 jQuery를 활용하여 네비게이션과 슬라이드를
+                        접목시켜 다양한 상호작용이 가능하도록 하였습니다.
+                        상품에 대한 정보와 구매를 위한 정보를 확인할 수 있는 Sub Page도 같이 구현하였습니다.
+                    </p>
+                    <button class="btn_1" onclick="window.open('https://gitvlaen.github.io/openapi/index.html');">Main Page</button>
+                    <button class="btn_1" onclick="window.open('https://gitvlaen.github.io/openapi/sub.html');">Sub Page</button>
+                </div>
+
+                <div class="view1">
+                    <div class="web_img1">
+                        <img src="./img/interpark/interpark_main_fullpage.jpg" alt="인터파크 웹페이지">
+                    </div>
+                    <div class="imgbox1" onclick="window.open('https://gitvlaen.github.io/openapi/index.html');">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+
+        <div class="section" data-anchor="section3">
+            <div class="section_wrap">
+                <div class="explain">
+                    <h1 id="">Project 02</h1>
+                    <h2>Rock Band:The Score</h2>
+                    <h3>Responsive Web</h3>
+                    <h4>Point Color</h4>
+                    <ul class="color2">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        뮤지션 밴드 'The Score'를 소개하는 웹 페이지입니다.
+                        미디어쿼리를 사용하여 모바일, 태블릿, PC 사용자에 따른 반응형웹사이트로 제작되었습니다.
+                        하얀색 배경을 바탕으로 각 section마다 각기 다른 색의 이미지를사용하여 깔끔하면서도 강렬한 분위기를 연출했습니다.
+                        밴드의 history를 볼 수 있는 블로그 형식의 Sub Page도 같이구현하였습니다.
+                    </p>
+                    <button class="btn_2" onclick="window.open('https://gitvlaen.github.io/gitVlaen-resposive_web/index.html');">Main
+                        Page</button>
+                    <button class="btn_2" onclick="window.open('https://gitvlaen.github.io/gitVlaen-resposive_web/sub.html');">Sub
+                        Page</button>
+                </div>
+
+                <div class="mobile">
+                    <div class="mobile_wrap">
+                        <ul class="mobile_01">
+                            <li><img src="./img/thescore/thescore_mobile_1.png" />
+                                <img src="./img/thescore/thescore_mobile_2.png" />
+                            </li>
+                            <li><img src="./img/thescore/thescore_mobile_3.png" />
+                                <img src="./img/thescore/thescore_mobile_4.png" />
+                            </li>
+                            <li><img src="./img/thescore/thescore_mobile_5.png" />
+                                <img src="./img/thescore/thescore_mobile_6.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="view2">
+                    <div class="web_img2">
+                        <img src="./img/thescore/theScore_main_fullpage.jpg" alt="the score 웹페이지">
+                    </div>
+                    <div class="imgbox2" onclick="window.open('https://gitvlaen.github.io/gitVlaen-resposive_web/index.html');">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 3 PLNTS -->
+
+        <div class="section" data-anchor="section4">
+            <div class="section_wrap">
+                <div class="explain">
+                    <h1>Project 03</h1>
+                    <h2>PLNTS</h2>
+                    <h3>Shopping mall, Json, JS</h3>
+                    <h4>Point Color</h4>
+                    <ul class="color3">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        싱그러운 화초들을 판매하는 'PLNTS' 클론 웹 사이트입니다.
+                        하얀색 배경을 바탕으로 깔끔함을 주고 단순한 레이아웃을 이용하여상품에 집중이 될 수 있도록 연출하였습니다.
+                        Javascript를 활용하여 이미지 슬라이드를 통한 인터렉션 요소를배치하였으며 JSON을 활용하여 깔끔한 디자인을 연출하였습니다.
+                        선택한 상품의 자세한 정보를 볼 수 있는 Sub Page도 제작했습니다.
+
+                    </p>
+
+                    <button class="btn_3"
+                        onclick="window.open('https://gitvlaen.github.io/json_ajax/index.html');">Main
+                        Page</button>
+                    <button class="btn_3"
+                        onclick="window.open('https://gitvlaen.github.io/json_ajax/sub.html');">Sub Page</button>
+                </div>
+
+                <div class="view3">
+                    <div class="web_img3">
+                        <img src="./img/PLNTS/PLNTS_main_fullpage.jpg" alt="PLNTS 웹페이지">
+                    </div>
+                    <div class="imgbox3" onclick="window.open('https://gitvlaen.github.io/json_ajax/index.html')">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 4 Alista -->
+
+        <div class="section" data-anchor="section5">
+            <div class="section_wrap">
+                <div class="explain">
+                    <h1>Project 04</h1>
+                    <h2>Alista : Organic Store</h2>
+                    <h3>Responsive Web</h3>
+                    <h4>Point Color</h4>
+                    <ul class="color4">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>
+                        유기농 상품을 판매하는 'Alista'의 클론 페이지입니다.
+                        React Bootstrap을 사용하여, 사용자의 디바이스에 따른 반응형 웹사이트로 제작되었습니다.
+                        하얀색 배경을 바탕으로 상품 섹션에 약간의 회색을 주어 상품에
+                        명료성을 주고 푸른색 버튼과 연녹색의 텍스트를 더하여 포근하고
+                        깔끔한 디자인을 연출하였습니다.
+                        상품의 자세한 정보를 볼 수 있는 Sub Page도 함께 제작하였습니다.
+                    </p>
+
+                    <button class="btn_4" onclick="window.open('https://gitvlaen.github.io/');">Go to Page</button>
+                </div>
+
+                <div class="mobile">
+                    <div class="mobile_wrap">
+                        <ul class="mobile_02">
+                            <li><img src="./img/alista/alista_mobile_1.png"/>
+                                <img src="./img/alista/alista_mobile_2.png" />
+                            </li>
+                            <li><img src="./img/alista/alista_mobile_3.png" />
+                                <img src="./img/alista/alista_mobile_4.png" />
+                            </li>
+                            <li><img src="./img/alista/alista_mobile_6.png" />
+                                <img src="./img/alista/alista_mobile_10.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="view4">
+                    <div class="web_img4">
+                        <img src="./img/alista/alista_main_fullpage2.jpg" alt="alista 웹페이지">
+                    </div>
+                    <div class="imgbox4" onclick="window.open('https://gitvlaen.github.io/')">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About Me -->
+
+        <div class="section" data-anchor="section6">
+            <div class="wrap_last">
+                <div class="introduce">
+                    <h1>About Me</h1>
+                    <div class="photo">
+                        <img src="./img/totalpage/my_photo.jpg" alt="사진">
+                    </div>
+                    <div class="profile">
+                        <h3>박세홍 <span>Park Sae Hong</span></h3>
+                        <table>
+                            <tr>
+                                <th>Birth</th>
+                                <td>1997.09.12</td>
+                            </tr>
+                            <tr>
+                                <th>Phone</th>
+                                <td>010 4445 0978</td>
+                            </tr>
+                            <tr>
+                                <th>E-mail</th>
+                                <td>bsh01262@naver.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="bg_box">
+                    <h3>지속적으로 성장하는 개발자</h3>
+                    <img src="img/totalpage/ascend_line.jpg" alt="graph">
+                </div>
+
+                <div class="career">
+                    <div class="box">
+                        <h3>GOAL</h3>
+                        <ul>
+                            <li>현재에 안주하지 않고 앞을 향해 나아가는 자세</li>
+                            <li>타인의 의견을 존중하고 귀담아듣는 자세</li>
+                            <li>부족함을 받아들이고 인정할 줄 아는 자세</li>
+                        </ul>
+                        <h3>HISTORY</h3>
+                        <ul>
+                            <li><span class="bold">2016</span>해동고등학교 졸업</li>
+                            <li><span class="bold">2022</span>동아대학교 경영정보학과 졸업</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h3>TRAINING</h3>
+                        <ul>
+                            <li>이젠컴퓨터아트학원
+                                UI/UX<br> 웹퍼블리셔 전문가 양성과정 수료(2022년 9월)
+                            </li>
+                        </ul>
+                        <h3>SKILL</h3>
+                        <ul id="g1" class="graph">
+                            <li> <span style="width: 90%">HTML / CSS</span></li>
+                            <li> <span style="width: 80%">Responsible web / Media query</span></li>
+                            <li> <span style="width: 60%">Javascript</span></li>
+                            <li> <span style="width: 60%">Json / Ajax</span></li>
+                            <li> <span style="width: 60%">Jquery</span></li>
+                            <li> <span style="width: 60%">Open Api</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
